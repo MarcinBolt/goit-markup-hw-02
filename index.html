@@ -13,47 +13,56 @@
   </head>
   <body>
     <header>
-      <nav>
+      <section class="section-main-menu">
+        <a href="./index.html" class="logo-top"><span class="logo-color-blue">Web</span>Studio</a>
+        <nav class="section-main-menu-nav">
+          <ul class="section-main-menu-nav-list">
+            <li><a href="./index.html" class="nav-link current-link">Agencja</a></li>
+            <li><a href="./portfolio.html" class="nav-link">Portfolio</a></li>
+            <li><a href="#" class="nav-link">Kontakt</a></li>
+          </ul>
+        </nav>
         <ul>
-          <li class="logo"><a href="./index.html">WebStudio</a></li>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="mailto:info@devstudio.com" class="header-mail">info@devstudio.com</a></li>
+          <li><a href="tel:+48111111111" class="header-tel">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
       </section>
     </header>
     <main>
-      <div>
-        <ul>
-          <li>
-            <h4>LOREM IPSUM</h4>
+      <section class="section-top">
+        <h1 class="section-top-header">
+          <strong>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</strong>
+        </h1>
+        <div class="section-top-division">
+          <button type="button" class="section-top-button">Zamów usługę</button>
+        </div>
+      </section>
+      <div class="division-content">
+        <h2 class="content-hidden-element"></h2>
+        <ul class="content-list">
+          <li class="content-list-element">
+            <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4>LOREM IPSUM</h4>
+          <li class="content-list-element">
+            <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4>LOREM IPSUM</h4>
+          <li class="content-list-element">
+            <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4>LOREM IPSUM</h4>
+          <li class="content-list-element">
+            <h3>LOREM IPSUM</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
@@ -61,92 +70,68 @@
           </li>
         </ul>
       </div>
-
-      <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
+      <section class="section-subjects">
+        <h2 class="section-subjects-header"><strong>Czym się zajmujemy</strong></h2>
+        <ul class="section-subjects-list">
+          <li class="section-subjects-list-element">
             <img src="images/image-left.jpg" width="370" height="294" alt="Backend" />
           </li>
-          <li>
+          <li class="section-subjects-list-element">
             <img src="images/image-center.jpg" width="370" height="294" alt="Frontend" />
           </li>
-          <li>
+          <li class="section-subjects-list-element">
             <img src="images/image-right.jpg" width="370" height="294" alt="Design" />
           </li>
         </ul>
       </section>
-
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
-            <figure>
-              <img
-                src="images/photo-product-designer.jpg"
-                width="270"
-                height="260"
-                alt="Zdjęcie Procuct Designer"
-              />
-              <figcaption>
-                <p>John Dou</p>
-                <p>Product Designer</p>
-              </figcaption>
-            </figure>
+      <section class="section-team">
+        <h2 class="section-team-header">Nasz zespół</h2>
+        <ul class="section-team-list">
+          <li class="section-team-list-element">
+            <img
+              src="images/photo-product-designer.jpg"
+              width="270"
+              height="260"
+              alt="Photo Procuct Designer"
+            />
+            <h3>John Dou</h3>
+            <p>Product Designer</p>
           </li>
-          <li>
-            <figure>
-              <img
-                src="images/photo-frontend-developer.jpg"
-                width="270"
-                height="260"
-                alt="Zdjęcie Frontend Developer"
-              />
-              <figcaption>
-                <p>John Dou</p>
-                <p>Frontend Developer</p>
-              </figcaption>
-            </figure>
+          <li class="section-team-list-element">
+            <img
+              src="images/photo-frontend-developer.jpg"
+              width="270"
+              height="260"
+              alt="Photo Frontend Developer"
+            />
+            <h3>John Doe</h3>
+            <p>Frontend Developer</p>
           </li>
-          <li>
-            <figure>
-              <img
-                src="images/photo-marketing.jpg"
-                width="270"
-                height="260"
-                alt="Zdjęcie Marketing"
-              />
-              <figcaption>
-                <p>John Dou</p>
-                <p>Marketing</p>
-              </figcaption>
-            </figure>
+          <li class="section-team-list-element">
+            <img src="images/photo-marketing.jpg" width="270" height="260" alt="Photo Marketing" />
+            <h3>John Doe</h3>
+            <p>Marketing</p>
           </li>
-          <li>
-            <figure>
-              <img
-                src="images/photo-ui-designer.jpg"
-                width="270"
-                height="260"
-                alt="Zdjęcie UI Designer"
-              />
-              <figcaption>
-                <p>John Dou</p>
-                <p>UI Designer</p>
-              </figcaption>
-            </figure>
+          <li class="section-team-list-element">
+            <img
+              src="images/photo-ui-designer.jpg"
+              width="270"
+              height="260"
+              alt="Photo UI Designer"
+            />
+            <h3>John Doe</h3>
+            <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-
-    <footer>
-      <address>
-        <ul>
-          <li class="logo"><a href="./index.html">WebStudio</a></li>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+    <footer class="footer-container">
+      <a href="./index.html" class="logo-bottom"><span class="logo-color-blue">Web</span>Studio</a>
+      <address class="address-container">
+        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+        <ul class="address-container-list">
+          <li><a href="mailto:info@example.com" class="footer-mail">info@example.com</a></li>
+          <li><a href="tel:+48111111111" class="footer-tel">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>
