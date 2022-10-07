@@ -14,7 +14,7 @@
   <body>
     <header>
       <section class="section-main-menu">
-        <a href="./index.html" class="logo-top"><span class="logo-color-blue">Web</span>Studio</a>
+        <a href="./index.html" class="logo-top"><span class="logo-bluepart">Web</span>Studio</a>
         <nav class="section-main-menu-nav">
           <ul class="section-main-menu-nav-list">
             <li><a href="./index.html" class="nav-link">Agencja</a></li>
@@ -22,7 +22,7 @@
             <li><a href="#" class="nav-link">Kontakt</a></li>
           </ul>
         </nav>
-        <ul>
+        <ul class="contact-list">
           <li><a href="mailto:info@devstudio.com" class="header-mail">info@devstudio.com</a></li>
           <li><a href="tel:+48111111111" class="header-tel">+48 111 111 111</a></li>
         </ul>
@@ -31,67 +31,124 @@
     <main>
       <section class="section-portfolio-filter">
         <div class="portfolio-buttons-division">
-          <ul class="portfolio-buttons-list">
-            <li><button type="button">Wszystkie</button></li>
-            <li><button type="button">Strony</button></li>
-            <li><button type="button">Aplikacje</button></li>
-            <li><button type="button">Dizajn</button></li>
-            <li><button type="button">Marketing</button></li>
+          <ul class="portfolio-buttons-division-list">
+            <li>
+              <button type="button" class="button-filter button-all selected-button">
+                Wszystkie
+              </button>
+            </li>
+            <li><button type="button" class="button-filter button-pages">Strony</button></li>
+            <li><button type="button" class="button-filter button-app">Aplikacje</button></li>
+            <li><button type="button" class="button-filter button-design">Dizajn</button></li>
+            <li><button type="button" class="button-filter button-marketing">Marketing</button></li>
           </ul>
         </div>
         <div class="portfolio-filter-division">
-        <ul class="section-portfolio-filter-list">
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-technocrack.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Technocrack</h3>
-            <p>Strona internetowa</p>
-          </li>
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-new-orlean-golden-star.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Grafika New Orlean vs Golden Star</h3>
-            <p>Dizajn</p>
-          </li>
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-restaurant-seefood.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Restauracja Seafood</h3>
-            <p>Aplikacja</p>
-          </li>
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-project-prime.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Projekt Prime</h3>
-            <p>Marketing</p>
-          </li>
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-project-boxes.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Projekt Boxes</h3>
-            <p>Aplikacja</p>
-          </li>
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-inspiration.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Inspiration has no Borders</h3>
-            <p>Strona internetowa</p>
-          </li>
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-magazine.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Magazyn Limited Edition</h3>
-            <p>Dizajn</p>
-          </li>
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-project-lab.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Projekt LAB</h3>
-            <p>Marketing</p>
-          </li>
-          <li class="section-filtered-list-element">
-            <img src="images/portfolio-growing-business.jpg" width="370" height="294" alt="Web Page" />
-            <h3>Growing Business</h3>
-            <p>Aplikacja</p>
-          </li>
-        </ul>
+          <ul class="portfolio-filter-division-list">
+            <li class="portfolio-filter-division-list-element">
+             <div class="filtered-element">
+              <img src="images/portfolio-technocrack.jpg" width="370" height="294" alt="Web Page" />
+              <h3>Technocrack</h3>
+              <p>Strona internetowa</p>
+              </div>
+            </li>
+            <li class="portfolio-filter-division-list-element">
+              <div class="filtered-element">
+                <img
+                  src="images/portfolio-new-orlean-golden-star.jpg"
+                  width="370"
+                  height="294"
+                  alt="Web Page"
+                />
+                <h3>Grafika New Orlean vs Golden Star</h3>
+                <p>Dizajn</p>
+              </div>
+            </li>
+            <li class="portfolio-filter-division-list-element">
+              <div class="filtered-element">
+                <img
+                  src="images/portfolio-restaurant-seefood.jpg"
+                  width="370"
+                  height="294"
+                  alt="Web Page"
+                />
+                <h3>Restauracja Seafood</h3>
+                <p>Aplikacja</p>
+              </div>
+            </li>
+            <li class="portfolio-filter-division-list-element">
+              <div class="filtered-element">
+                <img
+                  src="images/portfolio-project-prime.jpg"
+                  width="370"
+                  height="294"
+                  alt="Web Page"
+                />
+                <h3>Projekt Prime</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-filter-division-list-element">
+              <div class="filtered-element">
+                <img
+                  src="images/portfolio-project-boxes.jpg"
+                  width="370"
+                  height="294"
+                  alt="Web Page"
+                />
+                <h3>Projekt Boxes</h3>
+                <p>Aplikacja</p>
+              </div>
+            </li>
+            <li class="portfolio-filter-division-list-element">
+              <div class="filtered-element">
+                <img
+                  src="images/portfolio-inspiration.jpg"
+                  width="370"
+                  height="294"
+                  alt="Web Page"
+                />
+                <h3>Inspiration has no Borders</h3>
+                <p>Strona internetowa</p>
+              </div>
+            </li>
+            <li class="portfolio-filter-division-list-element">
+              <div class="filtered-element">
+                <img src="images/portfolio-magazine.jpg" width="370" height="294" alt="Web Page" />
+                <h3>Magazyn Limited Edition</h3>
+                <p>Dizajn</p>
+              </div>
+            </li>
+            <li class="portfolio-filter-division-list-element">
+              <div class="filtered-element">
+                <img
+                  src="images/portfolio-project-lab.jpg"
+                  width="370"
+                  height="294"
+                  alt="Web Page"
+                />
+                <h3>Projekt LAB</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-filter-division-list-element">
+              <div class="filtered-element">
+                <img
+                  src="images/portfolio-growing-business.jpg"
+                  width="370"
+                  height="294"
+                  alt="Web Page"
+                />
+                <h3>Growing Business</h3>
+                <p>Aplikacja</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
     <footer class="footer-container">
-      <a href="./index.html" class="logo-bottom"><span class="logo-color-blue">Web</span>Studio</a>
+      <a href="./index.html" class="logo-bottom"><span class="logo-blue-part">Web</span>Studio</a>
       <address class="address-container">
         <p>m. Warszawa, Aleje Jerozolimskie 21</p>
         <ul class="address-container-list">
