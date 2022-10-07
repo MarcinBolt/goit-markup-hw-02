@@ -141,7 +141,6 @@ button[type='button'] {
 }
 
 .content-list-element h3 {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -166,7 +165,6 @@ button[type='button'] {
 .section-subjects-header,
 .section-team-header {
   text-align: center;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
